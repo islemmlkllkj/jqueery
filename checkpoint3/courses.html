@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <title>Document</title>
+</head>
+<body>
+  
+        <div class="navbar">
+               <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="courses.html">COURSES</a></li>
+             <li><a href="contact.html">CONTACT</a></li>
+            
+               </ul>
+         </div>
+         <div class="couverture">
+       
+                <div class="cont"><h1>COURSES</h1></div>
+         </div>
+         <div class="services">  
+                  <div class="image1"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>
+                  <div class="image2"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>
+                  <div class="image3"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>
+                  <div class="image4"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>
+                  <div class="image5"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>
+                  <div class="image6"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>
+                  <div class="image7"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>
+                  <div class="image8"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>
+                  <div class="image9"><a href="#ex1" rel="modal:open"><button class="iss">view more</button></a></div>   
+          </div> 
+         <div class="feed"><h2>Feedback</h2></div> 
+         <br>
+    <div class="centre">
+      <form>   
+         <button onclick="bolde()">B</button>
+         <button onclick="ITALICE()">I</button>
+         <button onclick="Underline() ">Underline</button>
+        
+             <select id="fs" onchange="SIZE()">
+               <option  value="20px">20px</option>
+               <option value="30px">30PX</option>
+               <option value="40px">40PX</option>
+             </select>
+             
+              <select id="islem" onchange="STYLE() ">
+                <option  font-family ="Arial">Arial</option>
+                <option font-family ="Verdana">Verdana</option>
+                <option font-family ="Geneva" >Geneva</option>
+              </select>
+         </form>
+      </div>
+       <br>
+    <div class="centre"><textarea id="texte"></textarea></div>      
+    <div id="ex1" class="modal">
+        <p style="color: black">This is GoMyCode Track. 
+            <br>    Each track has its own goal. <br>
+               By adopting this track, you chose your own goal.</p>
+        <a href="#" rel="modal:close">Close</a>
+      </div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
